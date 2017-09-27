@@ -20,7 +20,8 @@ import cn.itcast.jk.domain.User;
 import cn.itcast.jk.service.UserService;
 
 public class AuthRealm extends AuthorizingRealm {
-
+	
+	private int a = 1;
 	private UserService userService;
 	public void setUserService(UserService userService) {
 		this.userService = userService;
